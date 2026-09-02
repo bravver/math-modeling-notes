@@ -1,0 +1,32 @@
+# --- 操作系统 / 资源管理器 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+~$*
+
+# --- 编辑器 / 会话 ---
+.idea/
+.vscode/
+.claude/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# --- LaTeX 编译中间产物 ---
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+
+# --- 其它大体积 / 临时文件（按需放开） ---
+# *.zip
